@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>contact</title>
+</head>
+
+<body>
+  <h1>Contact Kyle</h1>
+  <p>at home (293-758-9956)</p>
+  <p>out in the boondocks (686-887-3432)</p>
+  <p>on the moon (406-448-8856)</p>
+  <hr>
+
+  <!-- the "name" attribute of the input type (text and email) and textarea adds a label 
+  to the data that the user enters-->
+  <form action="mailto:test@test.com" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <input type="text" name="customerName" value=""><br>
+    <label>Your email:</label>
+    <input type="email" name="customerEmail"><br>
+    <label>Your message:</label><br>
+    <textarea name="customerMessage" rows="10" columns="80"></textarea><br>
+    <input type="submit" value="submit">
+  </form>
+</body>
+
+</html>
